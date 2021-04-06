@@ -6,4 +6,3 @@ It uses https://github.com/Strech/sidekiq-prometheus-exporter to serve sidekiq m
 
 Specify your redis URL using env - SIDEKIQ_REDIS_URL
 
-* ...
