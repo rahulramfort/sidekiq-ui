@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple rails application that mounts sidekiq UI and serves sidekiq metrics at /metrics path.
 
-Things you may want to cover:
+It uses https://github.com/Strech/sidekiq-prometheus-exporter to serve sidekiq metrics.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+Specify your redis URL using env - SIDEKIQ_REDIS_URL
 
 * ...
