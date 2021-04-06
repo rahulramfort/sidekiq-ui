@@ -6,3 +6,7 @@ It uses https://github.com/Strech/sidekiq-prometheus-exporter to serve sidekiq m
 
 Specify your redis URL using env - SIDEKIQ_REDIS_URL
 
+To run the application 
+```
+docker run  -e SIDEKIQ_REDIS_URL='redis://sidekiq-redis:6379' -p 3000:3000 rahulramfort/sidekiq-ui:0.0.1
+```
