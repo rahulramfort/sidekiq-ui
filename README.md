@@ -1,4 +1,4 @@
-# README
+# Sidekiq UI with Metrics
 
 A simple rails application that mounts sidekiq UI and serves sidekiq metrics at /metrics path.
 
