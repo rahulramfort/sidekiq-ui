@@ -94,6 +94,11 @@ Rails.application.configure do
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
 
+  # Allow requests to the following host
+  if ENV['HOST'].present?
+    config.hosts << ENV['HOST']
+  end
+
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
